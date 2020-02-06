@@ -105,8 +105,8 @@ class Configuration:
 class Graph:
     def __init__(self, graph_frame):
         self.left_limit = 0
-        self.right_limit = 5000  # TODO: TEMP*******
-        self.tick = 5000  # REMOVE
+        self.right_limit = 5000
+        self.tick = 5000
 
         self.amplitude_data = None
         self.freq_range = None
